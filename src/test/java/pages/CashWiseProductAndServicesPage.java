@@ -21,4 +21,8 @@ public class CashWiseProductAndServicesPage {
 
     @FindBy(xpath = "//div[@type='MINI']//p")
     public WebElement afterDeleteBtnMessage;
+
+    @FindBy(xpath ="")
+    public WebElement git;
+    
 }
